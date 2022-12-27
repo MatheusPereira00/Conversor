@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConversorTemperaturaComponent implements OnInit {
 
+
+  title: string = 'Conversor'
   constructor() { }
 
   ngOnInit(): void {
